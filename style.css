@@ -1,0 +1,117 @@
+body {
+	font-family: Arial; sans-serif;
+	background-color: beige;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1, h2 {
+	color: sienna;
+	margin-top: 20px;
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+nav {
+	background: burlywood;
+	padding: 10px 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 15px;
+}
+
+nav ul li a:hover {
+	background-color: wheat;
+	color: burlywood;
+	border-radius: 5px;
+}
+
+ul li {
+	list-style-position: inside;
+	text-align: center;
+}
+
+ol {
+	text-align: center;
+	list-style-position: inside;
+}
+
+video {
+	margin: 10px;
+	width: fit-content;
+}
+
+table {
+	width: 60%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid sienna;
+}
+
+th {
+	background-color: peru;
+	color: white;
+}
+
+img {
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.button {
+	display: inline-block;
+	background: sienna;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.back-button {
+	display: block;
+	background-color: sienna;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 20px auto;
+	width: fit-content;
+}
+
+.button:hover {
+	background: saddlebrown;
+}
+
+footer {
+	margin-top: 20px;
+	padding: 10px;
+	background: sienna;
+	color: white;
+	font-size: 14px;
+}
